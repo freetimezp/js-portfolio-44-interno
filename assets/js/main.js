@@ -33,7 +33,7 @@ const sr = ScrollReveal({
     distance: '60px',
     duration: 3000,
     delay: 600,
-    reset: true
+    reset: false
 });
 
 sr.reveal('.hero__text', { origin: 'top' });
